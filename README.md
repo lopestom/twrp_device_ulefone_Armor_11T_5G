@@ -2,9 +2,9 @@
 Ulefone Armor 11T 5G_20210720_V08-Non-EU - MT6873 - A11
 
 ---------------
-Status: TEST compile file to know if booting
+Status: TEST compile file to know if booting : After compiling the first file booted.
 
-boot.......img => Working
+boot-Armor_11T_5G-A11-20220416-0318.img => Working
 ------------------------------------
 Credit: tester for [olegor1981 - 4pda](https://4pda.to/forum/index.php?showuser=8045287)
 
