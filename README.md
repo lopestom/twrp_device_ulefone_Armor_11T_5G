@@ -16,7 +16,9 @@ TWRP Pictures
 ----------------------------------------
 
 The following instructions are to leave TWRP permanently on the device and restart the system normally.
+
 ###FORMAT DATA
+
 6- If you see that the message exists in the Mount - Decrypt Data option, you must run the FORMAT DATA process.
 
 Confirm FORMAT DATA: For the first time, formatting may not have been done. Go back (triangle) and it should already say (yes), confirm again and you will see the correct formatting.
