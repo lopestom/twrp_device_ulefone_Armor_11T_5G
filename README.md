@@ -11,5 +11,5 @@ Credits: tester for [olegor1981 - 4pda](https://4pda.to/forum/index.php?showuser
 --------------------------------
 TWRP Pictures
 -------------
-![Initial Menu](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU.jpg?raw=true) ![Advanced Option](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU1.jpg)
-![Reboot Option](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU2.jpg)
+![Initial Menu](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU.jpg?raw=true) ![Advanced Option](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU1.jpg?raw=true)
+![Reboot Option](https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G/blob/android-11.0/.pictures/screnU2.jpg?raw=true)
