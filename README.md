@@ -27,12 +27,13 @@ Confirm FORMAT DATA: For the first time, formatting may not have been done. Go b
 ## Preparing needed files
 7- You can put files in internal and external memory. For internal storage you should use the path: /sdcard
 You must complete these steps!
-Advanced: Unmap Super Devices;
-Advanced: Merge Snapshots;
-Install --> img: bootStock-UlefoneArmor11T5G_20210720_V08-Non-EU.img (40MB) => section: Boot;
-Return to the main menu;
-Advanced: Install Recovery Ramdisk - select: bootTWRP-Armor_11T_5G-A11.img (40MB);
+- Advanced: Unmap Super Devices;
+- Advanced: Merge Snapshots;
+- Install --> img: bootStock-UlefoneArmor11T5G_20210720_V08-Non-EU.img (40MB) => section: Boot;
+- Return to the main menu;
+- Advanced: Install Recovery Ramdisk - select: bootTWRP-Armor_11T_5G-A11.img (40MB);
 bootTWRP-Armor_11T_5G-A11.img <=> boot.emmc.win renamed file backuped.
+
 Confirm selection.
 
 Restart the system and it will restart.
