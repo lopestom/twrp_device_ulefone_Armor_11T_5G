@@ -31,9 +31,9 @@ You must complete these steps!
 - Advanced: Merge Snapshots;
 - Install --> img: bootStock-UlefoneArmor11T5G_20210720_V08-Non-EU.img (40MB) => section: Boot;
 - Return to the main menu;
-- Advanced: Install Recovery Ramdisk - select: bootTWRP-Armor_11T_5G-A11.img (40MB);
+- Advanced: Install Recovery Ramdisk - select: bootTWRP-Armor_11T_5G.img (40MB);
 
-bootTWRP-Armor_11T_5G-A11.img <=> boot.emmc.win renamed file backuped.
+You can have the bootTWRP-Armor_11T_5G.img <=> boot.emmc.win renamed file backuped or download bootTWRP-Armor_11T_5G.zip from Release option tab.
 
 Confirm selection.
 
