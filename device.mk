@@ -1,15 +1,15 @@
-LOCAL_PATH := device/ulefone/Armor_11T_5G
+LOCAL_PATH := device/fih/EC211001
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# VNDK
+# Shipping VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
-# API
+# Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-PRODUCT_PLATFORM := mt6873
+PRODUCT_PLATFORM := mt6833
 
 # A/B
 ENABLE_VIRTUAL_AB := true

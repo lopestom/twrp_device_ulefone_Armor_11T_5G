@@ -1,21 +1,38 @@
 #from device
-ro.copyfile.persist=1
 ro.hardware.egl=meow
-ro.vendor.mediatek.platform=MT6873
-ro.boot.hardware=MT6873
-ro.hardware=MT6873
+ro.vendor.mediatek.platform=MT6833
+ro.boot.hardware=MT6833
+ro.hardware=MT6833
 ro.vendor.mtk_f2fs_enable=1
 ro.vendor.mtk_emmc_support=1
 ro.vendor.mtk_ufs_support=1
-ro.vendor.mtk_trustkernel_tee_support=1
-ro.hardware.kmsetkey=trustkernel
-ro.hardware.gatekeeper=trustkernel
-ro.hct_trustkernel_tee_support=1
+ro.mtk_key_manager_support=1
+ro.vendor.mtk_tee_gp_support=1
+ro.hardware.kmsetkey=trustonic
+ro.vendor.mtk_trustonic_tee_support=1
 ro.crypto.volume.filenames_mode=aes-256-cts
-ro.sf.lcd_density=320
+ro.sf.lcd_density=280
 ro.boot.avb_version=1.1
 ro.boot.vbmeta.avb_version=1.1
-#
+# end common build properties
+ro.product.vendor.brand=Cricket
+vendor.ro.product.product.brand=Cricket
+ro.product.vendor.device=EC211001
+ro.product.vendor.manufacturer=FIH
+ro.product.vendor.model=EC211001
+vendor.ro.product.model.display=EC211001
+ro.product.vendor.name=EC211001
+vendor.ro.product.product.name=EC211001
+ro.product.nickname=Cricket Dream 5G
+ro.product.model.display=EC211001
+ro.product.model.num=0CN0
+# end common build properties
+ro.crypto.uses_fs_ioc_add_encryption_key=true
+ro.crypto.metadata.enabled=true
+ro.crypto.support_metadata_encrypt=true
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.dm_default_key.options_format.version=2
+
 #others functions
 ro.secure=0
 ro.adb.secure=0
