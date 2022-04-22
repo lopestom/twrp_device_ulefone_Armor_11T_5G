@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  DEVICE: Armor_11T_5G
+  DEVICE: EC211001
   DT_LINK: https://github.com/lopestom/twrp_device_ulefone_Armor_11T_5G
-  DT_PATH: device/ulefone/Armor_11T_5G
+  DT_PATH: device/fih/EC211001
   TARGET: bootimage
   TZ: Asia/manila
 
@@ -55,22 +55,22 @@ jobs:
        - name: Checkout device tree
          uses: actions/checkout@v2
          with:
-          path: twrp/device/ulefone/Armor_11T_5G
+          path: twrp/device/fih/EC211001
              
        - name: Build
          run: |
               PATH=~/bin:$PATH
               cd twrp
-              export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_Armor_11T_5G-eng && mka $TARGET -j5
-              cp  out/target/product/Armor_11T_5G/boot.img    out/target/product/Armor_11T_5G/boot-Armor_11T_5G-A11-$(date +"%Y%m%d-%H%M").img  
+              export ALLOW_MISSING_DEPENDENCIES=true && source build/envsetup.sh &&lunch twrp_EC211001-eng && mka $TARGET -j5
+              cp  out/target/product/EC211001/boot.img    out/target/product/EC211001/boot-EC211001-A11-$(date +"%Y%m%d-%H%M").img  
              
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
          env:
           GITHUB_TOKEN: ${{ secrets.TEST }}
          with:
-          tag_name: Armor_11T_5G-V08
+          tag_name: Cricket_Dream_5G-EC211001
           name: TWRP36x_11
           files: | 
-            twrp/out/target/product/Armor_11T_5G/boot*.img
-            twrp/out/target/product/Armor_11T_5G/ramdisk*.img
+            twrp/out/target/product/EC211001/boot*.img
+            twrp/out/target/product/EC211001/ramdisk*.img
